@@ -9,6 +9,7 @@
 
   header #nav ul li {
     padding: 0px 20px;
+    margin: 0 40px 40px 0;
   }
 
   header #nav ul li a {
@@ -97,10 +98,6 @@
     transition: 0.5s;
     background-color: #b4a577;
     padding-top: 80px;
-  }
-
-  header #nav ul li {
-    margin-bottom: 40px;
   }
 
   header #nav ul li a {
