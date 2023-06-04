@@ -183,6 +183,7 @@ ul.contact a:hover {
 
 ul.contact .contact-button {
   margin: 0 auto;
+  display: flex;
 }
 
 ul.contact .contact-circle {
@@ -190,16 +191,16 @@ ul.contact .contact-circle {
   margin: 0 auto;
 }
 
-ul.contact li.button-more {
+ul.contact .button-more {
   margin-right: 20px;
   margin-bottom: 30px;
 }
-ul.contact li.button-more2 {
+ul.contact .button-more2 {
   margin-right: 0px;
   margin-bottom: 30px;
 }
 
-ul.contact li.button-more a {
+ul.contact .button-more a {
   width: 200px;
   height: 60px;
   font-size: 2.4rem;
@@ -210,7 +211,7 @@ ul.contact li.button-more a {
   box-sizing: border-box;
 }
 
-ul.contact li.button-more2 a {
+ul.contact .button-more2 a {
   width: 200px;
   height: 60px;
   font-size: 2.2rem;
