@@ -1,0 +1,378 @@
+@charset "UTF-8"; /* 文字コードの指定 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"); /* Google Fonts用のCSSを読み込み */
+
+/* Base
+------------------------------------------------------------*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans JP", "游ゴシック", YuGothic, "メイリオ", Verdana,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #4c4c4c;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* 複数箇所で使いまわす指定
+------------------------------------------------------------*/
+
+.text-center {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+header {
+  padding-bottom: 100px;
+  background-color: #fffbee;
+}
+
+header #nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+header #nav ul {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+header #nav ul li {
+  padding: 0px 20px;
+  line-height: 100%;
+  list-style: none;
+}
+header #nav ul .last {
+  border-right: none;
+  padding: 0 0 0 20px;
+}
+header #nav ul li a {
+  padding-bottom: 10px;
+  color: #b4a577;
+  text-decoration: none;
+}
+header #nav ul li a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #c8b16c;
+  color: #c8b16c;
+}
+
+.btn-trigger {
+  display: none;
+}
+
+/*.button-menu {
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding: 20px;
+  margin: 0 0 0 auto;
+  font-size: 36px;
+  line-height: 0;
+  color: #b4a577;
+}*/
+
+.profile {
+  background-color: #fffbee;
+  height: 700px;
+}
+
+.profile .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.profile .container .profile-text {
+  margin: 0 auto;
+}
+
+.profile-name {
+  margin: 0;
+  padding: 0 0 20px 0;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  line-height: normal;
+  color: #b4a577;
+}
+
+.profile-name span {
+  display: block;
+  font-size: 5.6rem;
+  letter-spacing: 0.3rem;
+  color: #edc743;
+}
+.profile-name span1 {
+  display: block;
+  font-size: 5.6rem;
+  letter-spacing: 0.3rem;
+  color: #04138d;
+}
+
+.profile .container .profile-name .sub-name {
+  margin: 0;
+  text-align: left;
+}
+
+.profile .container .profile-name .main-name {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.profile-introduction {
+  margin: 0 0 80px;
+}
+
+.profile-image {
+  margin: -240px 0 0 880px;
+  border-radius: 50%;
+}
+
+ul.contact {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+ul.contact li {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+ul.contact li.instagram {
+  margin-right: 0px;
+}
+
+ul.contact li .instagram {
+  margin-right: 0px;
+}
+
+ul.contact a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  font-size: 3.2rem;
+  text-align: center;
+  line-height: 1.1;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #b4a577;
+}
+
+ul.contact a:hover {
+  background-color: #071e3d;
+}
+
+ul.contact .contact-button {
+  margin: 0 auto;
+}
+
+ul.contact .contact-circle {
+  display: flex;
+  margin: 0 auto;
+}
+
+ul.contact li.button-more {
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+ul.contact li.button-more2 {
+  margin-right: 0px;
+  margin-bottom: 30px;
+}
+
+ul.contact li.button-more a {
+  width: 200px;
+  height: 60px;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.4;
+  background-color: #edc743;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+ul.contact li.button-more2 a {
+  width: 200px;
+  height: 60px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.6;
+  background-color: #04138d;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-right: 0px;
+}
+
+.skills {
+  padding: 80px 0 120px;
+  background-color: #fffefa;
+}
+
+.skills .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.skills-box {
+  width: 32%;
+  padding: 40px;
+  color: #fff;
+  box-sizing: border-box;
+  box-shadow: -12px 10px 12px rgba(0, 0, 0, 0.25);
+}
+
+.color-a {
+  background-color: #c42ce6;
+}
+
+.color-b {
+  background-color: #d9346a;
+}
+
+.color-c {
+  background-color: #f0372e;
+}
+
+.skills-box-heading {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.skills i {
+  float: left;
+  padding-top: 16px;
+  margin: 0 20px 0 0;
+  font-size: 4.4rem;
+  color: #fff;
+}
+
+.skills h3 {
+  margin: 0;
+  font-size: 4.2rem;
+  font-weight: 400;
+}
+
+.skills p {
+  line-height: 2;
+}
+h2 {
+  margin: 0 0 80px;
+  font-size: 4.8rem;
+  font-weight: 300;
+  color: #b4a577;
+  letter-spacing: 0.5rem;
+}
+
+.works {
+  padding: 80px 0 180px;
+  background-color: #fffbee;
+}
+
+.works .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.works-box {
+  position: relative;
+  float: left;
+  width: 32%;
+  margin: 0 2% 40px 0;
+  color: #555;
+  background-color: #fff;
+  box-shadow: -16px 20px 16px rgba(0, 0, 0, 0.04);
+}
+
+.works-box:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.works-box img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.works-box-inner {
+  height: 120px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.works-box-inner h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.works-box-inner span {
+  position: absolute;
+  bottom: 20px;
+  font-size: 1.2rem;
+  color: #a8a698;
+}
+
+footer {
+  padding: 20px 0;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  background-color: #b4a577;
+}
+
+.youtube {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.youtube icon {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.fa-youtube::before {
+  font-family: "Font Awesome 5 Free";
+}
+
+.fa-youtube::before {
+  font-weight: 900;
+}
+
+.youtube a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  font-size: 3.2rem;
+  text-align: center;
+  line-height: 1.1;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #b4a577;
+  margin: 0 auto;
+}
