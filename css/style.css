@@ -84,12 +84,12 @@ header #nav ul li a:hover {
   color: #b4a577;
 }*/
 
-.profile {
+#profile {
   background-color: #fffbee;
   height: 700px;
 }
 
-.profile .container {
+#profile .container {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -97,7 +97,7 @@ header #nav ul li a:hover {
   max-width: 1080px;
 }
 
-.profile .container .profile-text {
+#profile .container .profile-text {
   margin: 0 auto;
 }
 
@@ -124,12 +124,12 @@ header #nav ul li a:hover {
   color: #04138d;
 }
 
-.profile .container .profile-name .sub-name {
+#profile .container .profile-name .sub-name {
   margin: 0;
   text-align: left;
 }
 
-.profile .container .profile-name .main-name {
+#profile .container .profile-name .main-name {
   margin: 0 auto;
   text-align: left;
 }
@@ -223,12 +223,12 @@ ul.contact .button-more2 a {
   margin-right: 0px;
 }
 
-.skills {
+#skills {
   padding: 80px 0 120px;
   background-color: #fffefa;
 }
 
-.skills .container {
+#skills .container {
   display: flex;
   justify-content: space-between;
   max-width: 1080px;
@@ -260,7 +260,7 @@ ul.contact .button-more2 a {
   margin-bottom: 20px;
 }
 
-.skills i {
+#skills i {
   float: left;
   padding-top: 16px;
   margin: 0 20px 0 0;
@@ -268,13 +268,13 @@ ul.contact .button-more2 a {
   color: #fff;
 }
 
-.skills h3 {
+#skills h3 {
   margin: 0;
   font-size: 4.2rem;
   font-weight: 400;
 }
 
-.skills p {
+#skills p {
   line-height: 2;
 }
 h2 {
@@ -285,12 +285,12 @@ h2 {
   letter-spacing: 0.5rem;
 }
 
-.works {
+#works {
   padding: 80px 0 180px;
   background-color: #fffbee;
 }
 
-.works .container {
+#works .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

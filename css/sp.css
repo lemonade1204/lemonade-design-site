@@ -130,11 +130,11 @@
     margin-bottom: 30px;
   }
 
-  .skills {
+  #skills {
     padding: 40px 0 90px;
   }
 
-  .skills .container {
+  #skills .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -153,7 +153,7 @@
     margin: 1rem auto;
   }
 
-  .skills i {
+  #skills i {
     float: none;
     padding-top: 16px;
     margin: 0 20px 0 0;
@@ -181,12 +181,12 @@
     font-size: 5drem;
   }
 
-  .profile .container .profile-name .main-name {
+  #profile .container .profile-name .main-name {
     margin: 0 auto;
     text-align: center;
   }
 
-  .profile .container .profile-name .sub-name {
+  #profile .container .profile-name .sub-name {
     margin: 0 auto;
     text-align: center;
     font-size: 1.8rem;
@@ -198,7 +198,7 @@
     border-radius: 50%;
   }
 
-  .profile .container {
+  #profile .container {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -209,22 +209,22 @@
     margin: 50px 0 50px 0;
   }
 
-  .profile {
+  #profile {
     height: 1000px;
     margin-top: -3rem;
   }
 
-  .works {
+  #works {
     padding: 40px 0 120px;
   }
 
-  .works .container {
+  #works .container {
     display: flex;
     flex-direction: column;
     max-width: 768px;
   }
 
-  .works .container .works-box {
+  #works .container .works-box {
     width: 90%;
     margin: 1rem auto;
   }
