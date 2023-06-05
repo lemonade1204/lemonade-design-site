@@ -225,8 +225,15 @@
   }
 
   #works .container .works-box {
-    width: 90%;
+    width: 100%;
     margin: 1rem auto;
+  }
+
+  #works .container .works-box2 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
   }
 
   .works-box-inner h3 {
