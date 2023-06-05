@@ -337,6 +337,11 @@ h2 {
   color: #a8a698;
 }
 
+#works .container .works-box2 {
+  width: 100%;
+  margin: 1rem auto;
+}
+
 footer {
   padding: 20px 0;
   font-size: 1.4rem;
