@@ -4,7 +4,7 @@ $(function () {
     if ($(this).hasClass("active")) {
       $("nav").css({
         visibility: "visible",
-        opacity: 0.8,
+        opacity: 1,
       });
     } else {
       $("nav").css({
