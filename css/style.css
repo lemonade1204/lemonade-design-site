@@ -156,11 +156,11 @@ ul.contact li {
   vertical-align: middle;
 }
 
-ul.contact li.instagram {
+ul.contact li.youtube {
   margin-right: 0px;
 }
 
-ul.contact li .instagram {
+ul.contact li .youtube {
   margin-right: 0px;
 }
 
@@ -349,11 +349,6 @@ footer {
   text-align: center;
   color: #fff;
   background-color: #b4a577;
-}
-
-.youtube {
-  text-align: center;
-  padding: 20px 0;
 }
 
 .youtube icon {
